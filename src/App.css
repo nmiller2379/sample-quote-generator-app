@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(134, 204, 134);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box {
+  position: relative;
+  width: 60%;
+  height: 20%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#tweet-quote > img {
+  width: 10%;
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+}
+
+#new-quote {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#previous {
+  position: absolute;
+  bottom: 10px;
+  right: 160px;
+}
